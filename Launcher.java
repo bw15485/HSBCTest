@@ -23,7 +23,6 @@ public class Launcher
 
         System.out.println("");
         System.out.println("");
-
     }
 
 
@@ -35,7 +34,6 @@ public class Launcher
             System.out.println("Text Note " + counter +": " + entry.getMessage());
             counter++;
         }
-
     }
 
     public static void printTextAndImageNotes(ArrayList<TextAndImageNote> list)
@@ -46,7 +44,6 @@ public class Launcher
             System.out.println("Text and Image Note " + counter + ": " + entry.getMessage() + " , " + entry.getUrl());
             counter++;
         }
-
     }
  
 }
